@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "learning-001-simple-youtube-search",
+    "name": "Simple Youtube Search",
     "description": "An empty new project",
-    "slug": "learning-001-simple-youtube-search",
+    "slug": "simple-youtube-search",
     "privacy": "public",
     "sdkVersion": "22.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
-    "primaryColor": "#cccccc",
+    "primaryColor": "#E62117",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,7 +18,13 @@
       "assetExts": ["ttf", "mp4"]
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": 1
+    },
+    "android": {
+      "package": "com.inotives.simpleyoutubesearch",
+      "versionCode": 1,
+      "permissions": []
     }
   }
 }
